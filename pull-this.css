@@ -1,0 +1,8 @@
+.pull-this-show {
+  display: block;
+  float: right;
+  padding: 1em 0 1em 1em;
+  color: #777;
+  text-align: center;
+  font-size: 1.1em;
+}
