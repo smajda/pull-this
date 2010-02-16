@@ -39,6 +39,18 @@ You can have multiple pull quotes by using the `id` attribute. It can have whate
     neque mattis facilisis. Nulla nunc ipsum, sodales vitae, hendrerit non,
     imperdiet ac, ante. Morbi sit amet mi. Ut magna. 
 
+= Example #3: Only Show The Pull Quote =
+
+What if you want something to *only* appear in a pull quote? You can add the `display` attribute to `pullthis` and set it to `outside`:
+
+    [pullshow id="ex3"]Lorem ipsum dolor sit amet, consectetuer adipiscing
+    elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet
+    felis. Etiam congue.  Donec risus risus, pretium ac, tincidunt eu, tempor
+    eu, quam. Morbi blandit mollis magna.  [pullthis id="ex3"
+    display="outside"]This sentence will be hidden inside the paragraph and
+    only show as a pull quote.[/pullthis] 
+
+In this case, the orignal `pullthis` text is still there in the HTML, but it's hidden with CSS (by setting `display: none` on the text).
 
 == Installation ==
 

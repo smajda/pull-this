@@ -11,8 +11,11 @@ Version: 1.0
 
 // shortcode to mark a pull quote: [pullthis id="foo"]Make me a pull quote[/pullthis]
 function pull_this_mark($atts, $content = null) {
-  extract(shortcode_atts(array( 'id' => '1'), $atts));
-  return '<span class="pull-this-mark" id="pull-this-mark-'.$id.'">'.$content.'</span>';
+  extract(shortcode_atts(array( 'id' => '1', 'display' => 'both'), $atts));
+  if ($display == 'outside' )
+    return '<span class="pull-this-mark" id="pull-this-mark-'.$id.'" style="display:none;">'.$content.'</span>';
+  else 
+    return '<span class="pull-this-mark" id="pull-this-mark-'.$id.'">'.$content.'</span>';
 }
 add_shortcode('pullthis', 'pull_this_mark');
 
