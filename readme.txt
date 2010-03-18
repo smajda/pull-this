@@ -1,7 +1,7 @@
 === Pull This ===
 Contributors: smajda
 Author URI: http://jon.smajda.com
-Plugin URI: http://wordpress.org/extend/plugins/pull-this/
+Plugin URI: TBD
 Tags: pull-quote, pull-this, post, quotes
 Requires at least: 2.8
 Tested up to: 2.9.1
