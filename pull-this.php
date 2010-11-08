@@ -4,7 +4,7 @@ Plugin Name: Pull This
 Plugin URI: http://wordpress.org/extend/plugins/pull-this/
 Description: Select and place pull quotes inside your posts using shortcodes ([pullthis][/pullthis] and [pullshow]). Pull quotes are inserted with javascript.
 Author: Jon Smajda
-Version: 1.0
+Version: 1.1
 */
 
 /* Create shortcodes */

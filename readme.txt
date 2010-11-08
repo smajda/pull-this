@@ -4,8 +4,8 @@ Author URI: http://jon.smajda.com
 Plugin URI: http://wordpress.org/extend/plugins/pull-this/
 Tags: pull-quote, pull-this, post, quotes
 Requires at least: 2.8
-Tested up to: 2.9.1
-Stable tag: 1.0
+Tested up to: 3.0.1
+Stable tag: 1.1
 
 Select and place pull quotes inside your posts using shortcodes ([pullthis][/pullthis] and [pullshow]). Pull quotes are inserted with javascript.
 
@@ -68,6 +68,9 @@ Not yet!
 1. A screenshot of what example #1 under the Description heading produces. 
 
 == Changelog ==
+
+= 1.1 =
+* Fixed bug that caused pull-this quotes to not be applied properly in index views. [Thanks voodoodoodoo](http://wordpress.org/support/topic/plugin-pull-this-note-about-display-in-multiple-entries).
 
 = 1.0 =
 
